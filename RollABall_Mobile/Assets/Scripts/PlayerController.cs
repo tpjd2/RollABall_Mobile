@@ -28,7 +28,7 @@ public class PlayerController : MonoBehaviour
         movimento = Input.acceleration;
 
         forca.x = movimento.x;
-        forca.z = movimento.y;
+        //forca.z = movimento.y;
         forca *= speed;
         rb.AddForce(forca);
     }
